@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+https://developers.google.com/web/updates/2016/10/pointer-events#browser_support
+<div style="    max-width: 1400px;
+    padding: 0 24px;
+    position: relative;">
+    <nav style="    background: #f7f7f7;
+    float: left;
+    margin-right: 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 16px 12px 16px 16px;
+    width: 256px;max-height: 800px;position: fixed;">
+        <ul>
+            <li><span>level1</span>
+                <ul>
+                    <li>
+                    <span>level2</span>
+                        <ul><li>level3a</li>
+                            <li>level3b</li>
+                            <li>level3a</li>
+                            <li>level3b</li>
+                            <li>level3a</li>
+                            <li>level3b</li>
+                            <li>level3a</li>
+                            <li>level3b</li>
+                            <li>level3a</li>
+                            <li>level3b</li>
+                            <li>level3a</li>
+                            <li>level3b</li>
+                            <li>level3a</li>
+                            <li>level3b</li></ul>
+                    </li>
+                </ul>
+            </li>
+            <li><span>level1</span><ul>
+                <li>
+                    <span>level2</span>
+                    <ul><li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li></ul>
+                </li>
+                <li>
+                    <span>level2</span>
+                    <ul><li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li></ul>
+                </li>
+                <li>
+                    <span>level2</span>
+                    <ul><li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li>
+                        <li>level3a</li>
+                        <li>level3b</li></ul>
+                </li>
+            </ul>
+            </li>
+            <li><span>level1</span></li>
+            <li><span>level1</span></li>
+            <li><span>level1</span></li>
+            <li><span>level1</span></li>
+            <li><span>level1</span></li>
+
+        </ul>
+    </nav>
+    <nav style="background-color: antiquewhite;
+    float: right;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 160px;
+    z-index: 10000;    left: 1391px;
+    max-height: 835px;
+    top: 72px;
+    position: fixed;    border-left: 4px solid #4285f4;">   <ul><li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li></ul>   <ul><li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li></ul>   <ul><li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li>
+        <li>level3a</li>
+        <li>level3b</li></ul></nav>
+    <article style="    margin-left: 296px;
+    position: relative;
+    width: calc(100% - 496px); "><article style="    float: left;
+    width: 100%;    word-wrap: break-word;"><p>说明，目前，所有代码示例都可以在 Chrome 和 Firefox
+                                               中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式
+
+                                             说明，目前，所有代码示例都可以在 Chrome 和 Firefox 中运行。如需有关服务工作线程支持的完整详情，请参阅“服务工作线程是否已就绪”?。
+
+                                             对于其中部分模式的运行演示，请查看 Trained-to-thrill，以及展示性能影响的视频。
+
+                                             缓存计算机 - 何时存储资源
+
+                                             您可以通过 ServiceWorker 独立地从缓存处理请求，我们来单独看一下它们。 首先，应在什么时候进行缓存？
+
+                                             安装时 - 以依赖项形式安装时 - 以依赖项形式安装时 - 以依赖项形式安装时 -
+                                             以依赖项形式ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                                             ssssssssssssssssssssssssssssssss
+                                             ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+
+                                             ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                                             ssssssssssssssssssssssssssssssss
+
+
+
+
+
+
+
+
+    </p></article></article>
+</div>
+</body>
+</html>
