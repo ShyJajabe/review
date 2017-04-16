@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+</head>
+<body>
+<section><h5>window.onload</h5>
+    <pre class="prettyprint">
+        <xmp>
+            <!--jquery in action-->
+          window.onload=function(){};
+            <!--内部的代码会在全部文档加载完毕后执行，包括外部资源。并且onload只能执行单个函数，有时很难调试-->
+
+            jQuery(document).ready(function(){});
+            <!--在dom树加载完毕后来执行脚本 无需等待外部资源-->
+
+            <!--把脚本放在body最后可以避免ready方法？-->
+
+        </xmp>
+   </pre>
+</section>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+</body>
+</html>

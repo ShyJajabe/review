@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body><h4>
+    CDN=content delivery network
+</h4>
+<section>
+    <pre class="prettyprint">
+        <xmp>
+            <!--以下内容来自jquery in action-->
+            <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+            <!--这里没有配置下载协议http或者https，在没有运行在web server里的页面中使用这种代码可能会出错-->
+            <!--CDN服务器可能会不可用，为了避免出错，可以再次引入压缩版的-->
+            <script>window.jQuery||document.write('<script src="javascript/jquery-1.11.3.min.js"><\/script>');</script>
+        </xmp>
+   </pre>
+</section>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+</body>
+</html>

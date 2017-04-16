@@ -1,0 +1,17 @@
+{
+  "name": "front",
+  "homepage": "https://github.com/ShyJajabe/review",
+  "authors": [
+    "ShyJajabe <shinyjajabe@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
