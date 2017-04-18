@@ -10,12 +10,101 @@
     <pre class="prettyprint">
         <xmp>
         $('div,span')
-        <!--选择div和span标签的元素-->
+        <!--选择div或span标签的元素-->
          $('.des.blue')
-        <!--选择同时拥有des和blue的元素-->
+        <!--选择同时拥有des和blue的元素 -->
             http://www.runoob.com/jquery/jquery-ref-selectors.html
+             $('.des.blue')
         </xmp>
    </pre>
+</section>
+<section>
+    <h5>根据层级查找元素</h5>
+    <pre class="prettyprint">
+        <xmp>
+        $('div>li')
+        <!--所有div的直接子元素li  > 代表直接子元素 -->
+        $("ul + h3")
+        <!--The <h3> element that are next to each <ul> elements -->
+         $("ul ~ table")
+        <!--All <table> elements that are siblings of a <ul> element.-->
+        </xmp>
+   </pre>
+    <h5>根据属性查找元素</h5>
+    <pre class="prettyprint">
+        <xmp>
+        $("p[id!=my-Address]")
+
+        $("[id$=ess]")
+        <!--All elements with an id attribute value ending with "ess" 后缀是ess -->
+
+       $("[id|=my]")
+            <p id="my-Address">I live in Duckburg</p>
+        <!--All elements with an id attribute value equal to "my" or starting with "my" followed by a hyphen (-)-->
+
+            $("[id^=L]")
+        <!--All elements with an id attribute value starting with the letter "L"-->
+
+            $("[title~=beautiful]")
+            <p lang="it" title="Hello beautiful">Ciao bella</p>
+        <!--All elements with a title attribute value containing the word "beautiful"-->
+
+            $("[id*=s]")
+            <span id="Lastname">Duck</span>
+        <!--All elements with an id attribute value containing the string "s"-->
+        </xmp>
+   </pre>
+    <h5>过滤</h5>
+    <pre class="prettyprint">
+        <xmp>
+$("li:first")    //第一个li
+$("li:last")     //最后一个li
+$("li:even")     //挑选下标为偶数的li
+$("li:odd")      //挑选下标为奇数的li
+$("li:eq(4)")    //下标等于4的li
+$("li:gt(2)")    //下表大于2的li
+$("li:lt(2)")    //下标小于2的li
+$("li:not(#runoob)") //挑选除 id="runoob" 以外的所有li
+        </xmp>
+        <xmp>
+:first-child	$("p:first-child")	//属于其父元素的第一个子元素的所有 <p> 元素
+:first-of-type	$("p:first-of-type")	//属于其父元素的第一个 <p> 元素的所有 <p> 元素
+:last-child	$("p:last-child")	//属于其父元素的最后一个子元素的所有 <p> 元素
+:last-of-type	$("p:last-of-type")	//属于其父元素的最后一个 <p> 元素的所有 <p> 元素
+:nth-child(n)	$("p:nth-child(2)")	//属于其父元素的第二个子元素的所有 <p> 元素
+            :nth-child(even|odd)
+            :nth-child(Xn+Y)
+:nth-last-child(n)	$("p:nth-last-child(2)")	//属于其父元素的第二个子元素的所有 <p> 元素，从最后一个子元素开始计数
+:nth-of-type(n)	$("p:nth-of-type(2)")	//属于其父元素的第二个 <p> 元素的所有 <p> 元素
+:nth-last-of-type(n)	$("p:nth-last-of-type(2)")	//属于其父元素的第二个 <p> 元素的所有 <p> 元素，从最后一个子元素开始计数
+:only-child	$("p:only-child")	//属于其父元素的唯一子元素的所有 <p> 元素
+:only-of-type	$("p:only-of-type")	//属于其父元素的特定类型的唯一子元素的所有 <p> 元素
+
+
+
+            $(":input")      //匹配所有 input, textarea, select 和 button 元素
+$(":text")       //所有的单行文本框，$(":text") 等价于$("[type=text]")，推荐使用$("input:text")效率更高，下同
+$(":password")   //所有密码框
+$(":radio")      //所有单选按钮
+$(":checkbox")   //所有复选框
+$(":submit")     //所有提交按钮
+$(":reset")      //所有重置按钮
+$(":button")     //所有button按钮
+$(":file")       //所有文件域
+            $("input:enabled")    // 匹配可用的 input
+$("input:disabled")   // 匹配不可用的 input
+$("input:checked")    // 匹配选中的 input
+$("option:selected")  // 匹配选中的 option
+            $("div:contains('Runob')")    // 包含 Runob文本的元素
+$("td:empty")                 //不包含子元素或者文本的空元素
+$("div:has(selector)")        //含有选择器所匹配的元素
+$("td:parent")                //含有子元素或者文本的元素
+            $("li:hidden")       //匹配所有不可见元素，或type为hidden的元素
+$("li:visible")      //匹配所有可见元素
+        </xmp>
+
+   </pre>
+    <h5>$('div p')和 $('p','div')是一样的，第二个参数是上下文</h5>
 </section>
 <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 </body>
