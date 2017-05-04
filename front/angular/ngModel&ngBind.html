@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+
+    <input ng-model="name" >
+
+    <p> "name" :</p>
+    {{name}}<br>
+    <p> "test" :</p>
+    {{test()}}
+    <p ng-bind="test()"></p>
+
+</div>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope) {
+        console.log("123");
+        $scope.test=function(){
+            $scope.lll=$scope.name;
+            return $scope.lll;
+        };
+    });
+</script>
+</body>
+</html>
