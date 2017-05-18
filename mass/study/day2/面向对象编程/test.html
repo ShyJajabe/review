@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        function Person(name,sex){
+
+            //Hero.call(this,arguments);
+
+            Hero.apply(this,arguments);
+
+            this.name=name;
+            this.sex=sex;
+        }
+
+        function Hero(){
+            this.feature='高大';
+        }
+
+        var p1=new Person("张三","男");
+        console.log(p1.feature);
+
+
+        function add(a,b){
+            return a+b;
+        }
+
+        function sub(a,b){
+            return a-b;
+        }
+
+        var x=sub.call(add,7,8);
+        console.log(x);
+
+        function fun1(){
+            this.a=123;
+            this.add=function(){
+                return this.a;
+            }
+        }
+        function fun2(){
+            this.b=456;
+        }
+
+        var f1=new fun1();
+        var f2=new fun2();
+
+        var y=f1.add.apply(f2);
+        console.log(y);
+
+    </script>
+    http://www.blogjava.net/heavensay/archive/2013/10/20/405440.html
+</body>
+</html>
