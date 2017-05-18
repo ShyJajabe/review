@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+    //canvas默认宽度300*150
+    var canvas = document.getElementById("canvas");
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    var context = canvas.getContext("2d");
+    context.shadowOffsetX = 10;
+    context.shadowOffsetY = 10;
+    context.shadowColor = 'rgba(100,100,100,0.5)';
+    context.shadowBlur = 1.5;
+    context.fillStyle = 'rgba(255,0,0,0.5)';
+    context.fillRect(100, 100, 200, 100);
+</script>
+</body>
+</html>

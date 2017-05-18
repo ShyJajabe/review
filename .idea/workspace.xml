@@ -2,19 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="813dec69-5d3b-4a99-9488-c9bb8ad004a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TODO/fri.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/map/gaode/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/react/my-app1/public/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/react/my-app1/src/App2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/react/my-app1/src/BasicExample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/react/my-app1/src/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/react/my-app1/src/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/react/tutorial/create-react-app.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/websites/website1/src/Indexbg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mass/day2.pptx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mass/study/WechatIMG12.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mass/study/day1.pptx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mass/study/手机夹鸡蛋游戏.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mass/study/第一天文档.pptx.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mass/study/第一天源码.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mass/study/第二天文档.pptx.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mass/study/第二天源码.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mass/新建 Microsoft Office PowerPoint 演示文稿.pptx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/bgImage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/glass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/html/canvas/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/js/worker/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/js/worker/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/js/worker/worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/react/tutorial/定义组件.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/test2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/websites/website1/src/Enter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/websites/website1/src/Enter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/高亮/1/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/高亮/1/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front/高亮/1/run_prettify.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/react/my-app1/package.json" afterPath="$PROJECT_DIR$/front/react/my-app1/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/react/my-app1/src/App.js" afterPath="$PROJECT_DIR$/front/react/my-app1/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/react/my-app1/src/index.js" afterPath="$PROJECT_DIR$/front/react/my-app1/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO/fri.html" afterPath="$PROJECT_DIR$/TODO/fri.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/test.html" afterPath="$PROJECT_DIR$/front/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/websites/website1/src/IndexBg.js" afterPath="$PROJECT_DIR$/front/websites/website1/src/IndexBg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front/websites/website1/src/index.js" afterPath="$PROJECT_DIR$/front/websites/website1/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +47,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create-react-app.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/react/tutorial/create-react-app.html">
+      <file leaf-file-name="fri.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TODO/fri.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="248">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bgImage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/bgImage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -45,54 +70,113 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/websites/website1/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="3" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#125#153#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/websites/website1/src/index.css">
+      <file leaf-file-name="Enter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/websites/website1/src/Enter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+              <folding>
+                <element signature="e#42#83#0" expanded="true" />
+                <element signature="n#!!block;n#render#0;n#Enter#0" expanded="true" />
+                <element signature="n#!!block;n#render#0;n#IndexLink#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="定义组件.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/react/tutorial/定义组件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/高亮/1/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_prettify.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/高亮/1/run_prettify.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="62" column="225" lean-forward="false" selection-start-line="62" selection-start-column="225" selection-end-line="62" selection-end-column="225" />
+              <folding>
+                <element signature="e#11#22861#0" expanded="true" />
+                <element signature="e#1160#22856#0" expanded="true" />
+                <element signature="e#1175#1742#0" expanded="true" />
+                <element signature="e#2465#2896#0" expanded="true" />
+                <element signature="e#2548#2736#0" expanded="true" />
+                <element signature="e#3151#3348#0" expanded="true" />
+                <element signature="e#3165#3328#0" expanded="true" />
+                <element signature="e#3370#22832#0" expanded="true" />
+                <element signature="e#3425#22819#0" expanded="true" />
+                <element signature="e#3439#6670#0" expanded="true" />
+                <element signature="e#3646#3777#0" expanded="true" />
+                <element signature="e#3790#5052#0" expanded="true" />
+                <element signature="e#5065#5799#0" expanded="true" />
+                <element signature="e#6685#7131#0" expanded="true" />
+                <element signature="e#6699#7034#0" expanded="true" />
+                <element signature="e#7244#7389#0" expanded="true" />
+                <element signature="e#7404#8286#0" expanded="true" />
+                <element signature="e#7418#8026#0" expanded="true" />
+                <element signature="e#8299#12225#0" expanded="true" />
+                <element signature="e#12242#13420#0" expanded="true" />
+                <element signature="e#12256#12660#0" expanded="true" />
+                <element signature="e#13583#13681#0" expanded="true" />
+                <element signature="e#13694#14622#0" expanded="true" />
+                <element signature="e#20984#21175#0" expanded="true" />
+                <element signature="e#21205#22726#0" expanded="true" />
+                <element signature="e#21218#22287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prettify.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/高亮/1/prettify.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="46" column="59" lean-forward="false" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="glass.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/glass.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/websites/website1/src/App.js">
+      <file leaf-file-name="Enter.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/websites/website1/src/Enter.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fri.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TODO/fri.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexBg.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/websites/website1/src/IndexBg.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!block;n#constructor#0;n#IndexBg#0" expanded="true" />
-                <element signature="n#!!block;n#render#0;n#IndexBg#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -102,9 +186,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -120,20 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front/性能/代码压缩.html" />
-        <option value="$PROJECT_DIR$/front/性能/加载onload.html" />
-        <option value="$PROJECT_DIR$/front/performance/load.html" />
-        <option value="$PROJECT_DIR$/front/jquery/basic.html" />
-        <option value="$PROJECT_DIR$/front/css/selector.html" />
-        <option value="$PROJECT_DIR$/front/jquery/selector.html" />
-        <option value="$PROJECT_DIR$/front/jquery/operating.html" />
-        <option value="$PROJECT_DIR$/front/angular/tzb.html" />
-        <option value="$PROJECT_DIR$/front/tool/general.js" />
-        <option value="$PROJECT_DIR$/front/js/call/apply.html" />
-        <option value="$PROJECT_DIR$/front/js/call&amp;apply.html" />
-        <option value="$PROJECT_DIR$/front/angular/ngModel&amp;ngBind.html" />
-        <option value="$PROJECT_DIR$/front/general.html" />
-        <option value="$PROJECT_DIR$/front/angular/watch.html" />
         <option value="$PROJECT_DIR$/front/tool/how_to_use_bower.html" />
         <option value="$PROJECT_DIR$/front/tool/how_to_use_grunt.html" />
         <option value="$PROJECT_DIR$/front/tool/how_to_use_webpack1.html" />
@@ -150,7 +220,6 @@
         <option value="$PROJECT_DIR$/front/angular/DGCJreg/html/footer.html" />
         <option value="$PROJECT_DIR$/front/angular/DGCJreg/js/ZController.js" />
         <option value="$PROJECT_DIR$/TODO/1.html" />
-        <option value="$PROJECT_DIR$/front/test.html" />
         <option value="$PROJECT_DIR$/front/tool/install_multi_nodejs.html" />
         <option value="$PROJECT_DIR$/front/react/my-app1/package.json" />
         <option value="$PROJECT_DIR$/front/react/my-app1/src/App2.js" />
@@ -167,10 +236,25 @@
         <option value="$PROJECT_DIR$/front/react/tutorial/create-react-app.html" />
         <option value="$PROJECT_DIR$/front/websites/website1/src/indexbg.js" />
         <option value="$PROJECT_DIR$/front/websites/website1/src/Indexbg.js" />
-        <option value="$PROJECT_DIR$/front/websites/website1/src/index.js" />
         <option value="$PROJECT_DIR$/front/websites/website1/src/index.css" />
+        <option value="$PROJECT_DIR$/front/html/canvas/1.html" />
+        <option value="$PROJECT_DIR$/front/c.js" />
+        <option value="$PROJECT_DIR$/front/test.html" />
+        <option value="$PROJECT_DIR$/front/test2.html" />
+        <option value="$PROJECT_DIR$/front/js/worker/worker.js" />
+        <option value="$PROJECT_DIR$/front/js/worker/main.html" />
+        <option value="$PROJECT_DIR$/front/js/worker/main.js" />
         <option value="$PROJECT_DIR$/front/websites/website1/src/IndexBg.js" />
+        <option value="$PROJECT_DIR$/front/websites/website1/src/index.js" />
+        <option value="$PROJECT_DIR$/front/websites/website1/src/Enter.css" />
         <option value="$PROJECT_DIR$/TODO/fri.html" />
+        <option value="$PROJECT_DIR$/design/bgImage.html" />
+        <option value="$PROJECT_DIR$/front/websites/website1/src/Enter.js" />
+        <option value="$PROJECT_DIR$/design/glass.html" />
+        <option value="$PROJECT_DIR$/front/高亮/1/run_prettify.js" />
+        <option value="$PROJECT_DIR$/front/高亮/1/prettify.css" />
+        <option value="$PROJECT_DIR$/front/高亮/1/1.html" />
+        <option value="$PROJECT_DIR$/front/react/tutorial/定义组件.html" />
       </list>
     </option>
   </component>
@@ -227,7 +311,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TODO" />
+              <option name="myItemId" value="mass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,7 +343,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
+              <option name="myItemId" value="高亮" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,11 +365,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
+              <option name="myItemId" value="react" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="website1" />
+              <option name="myItemId" value="tutorial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,15 +387,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="websites" />
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="review" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="review" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="website1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="design" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,11 +422,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\review\mass" />
       <recent name="E:\project\review\front\react\my-app1\public" />
       <recent name="E:\project\review\front\react\my-app1\src" />
       <recent name="E:\project\review\front\angular" />
       <recent name="E:\project\review\front\little\slides\arrow\img" />
-      <recent name="E:\project\review\front\tool" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\project\review\front\websites\website1\src" />
@@ -449,12 +543,12 @@
       <workItem from="1493862533654" duration="3930000" />
       <workItem from="1494205548076" duration="16788000" />
       <workItem from="1494385280499" duration="10486000" />
-      <workItem from="1494813177398" duration="34133000" />
+      <workItem from="1494813177398" duration="52140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111934000" />
+    <option name="totallyTimeSpent" value="129941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1678" height="1008" extended-state="1" />
@@ -466,7 +560,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33028573" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -507,62 +601,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/js/method/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/js/method/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/angular/AngularJS实战第二章第七节综合应用BookStore源代码/BookStore/src/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/front/angular/AngularJS实战第二章第七节综合应用BookStore源代码/BookStore/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/index.html" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/html/index.html" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/icon1.png" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/icon2.png" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/icon3.png" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/icon4.png" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/icon5.png" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/icon11.png" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/regi1.png" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/img1.png" />
-    <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/icon51.png" />
     <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/icon41.png" />
     <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/icon31.png" />
     <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/img/icon21.png" />
     <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/js/router.js" />
     <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/js/ZController.js" />
     <entry file="file://$PROJECT_DIR$/front/angular/DGCJreg/html/footer.html" />
-    <entry file="file://$PROJECT_DIR$/TODO/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding>
-            <element signature="e#312#404#0" expanded="false" />
-            <element signature="e#440#635#0" expanded="false" />
-            <element signature="e#472#625#0" expanded="false" />
-            <element signature="e#712#863#0" expanded="false" />
-            <element signature="e#795#855#0" expanded="false" />
-            <element signature="e#1009#1059#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/tool/install_multi_nodejs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -767,12 +811,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/websites/website1/src/index.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="1187" column="59" lean-forward="false" selection-start-line="1187" selection-start-column="59" selection-end-line="1187" selection-end-column="59" />
+          <folding>
+            <element signature="e#20112#20154#0" expanded="false" />
+            <element signature="e#20217#20299#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/html/canvas/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/c.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#67#185#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/test2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/js/worker/worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#66#271#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/websites/website1/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!block;n#render#0;n#App#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/websites/website1/src/IndexBg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#IndexBg#0" expanded="false" />
+            <element signature="n#!!block;n#componentDidMount#0;n#IndexBg#0" expanded="false" />
+            <element signature="n#!!block;n#render#0;n#IndexBg#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#204#249#0" expanded="false" />
+            <element signature="e#280#363#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/js/worker/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#520#679#0" expanded="true" />
+            <element signature="e#715#829#0" expanded="true" />
+            <element signature="e#869#966#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -785,29 +911,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/websites/website1/src/IndexBg.js">
+    <entry file="file://$PROJECT_DIR$/front/js/worker/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!block;n#constructor#0;n#IndexBg#0" expanded="true" />
-            <element signature="n#!!block;n#render#0;n#IndexBg#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/websites/website1/src/App.js">
+    <entry file="file://$PROJECT_DIR$/TODO/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TODO/fri.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="248">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/bgImage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/websites/website1/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#125#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/websites/website1/src/Enter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/glass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/websites/website1/src/Enter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="e#42#83#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#Enter#0" expanded="true" />
+            <element signature="n#!!block;n#render#0;n#IndexLink#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/高亮/1/prettify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="46" column="59" lean-forward="false" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/高亮/1/run_prettify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="62" column="225" lean-forward="false" selection-start-line="62" selection-start-column="225" selection-end-line="62" selection-end-column="225" />
+          <folding>
+            <element signature="e#11#22861#0" expanded="true" />
+            <element signature="e#1160#22856#0" expanded="true" />
+            <element signature="e#1175#1742#0" expanded="true" />
+            <element signature="e#2465#2896#0" expanded="true" />
+            <element signature="e#2548#2736#0" expanded="true" />
+            <element signature="e#3151#3348#0" expanded="true" />
+            <element signature="e#3165#3328#0" expanded="true" />
+            <element signature="e#3370#22832#0" expanded="true" />
+            <element signature="e#3425#22819#0" expanded="true" />
+            <element signature="e#3439#6670#0" expanded="true" />
+            <element signature="e#3646#3777#0" expanded="true" />
+            <element signature="e#3790#5052#0" expanded="true" />
+            <element signature="e#5065#5799#0" expanded="true" />
+            <element signature="e#6685#7131#0" expanded="true" />
+            <element signature="e#6699#7034#0" expanded="true" />
+            <element signature="e#7244#7389#0" expanded="true" />
+            <element signature="e#7404#8286#0" expanded="true" />
+            <element signature="e#7418#8026#0" expanded="true" />
+            <element signature="e#8299#12225#0" expanded="true" />
+            <element signature="e#12242#13420#0" expanded="true" />
+            <element signature="e#12256#12660#0" expanded="true" />
+            <element signature="e#13583#13681#0" expanded="true" />
+            <element signature="e#13694#14622#0" expanded="true" />
+            <element signature="e#20984#21175#0" expanded="true" />
+            <element signature="e#21205#22726#0" expanded="true" />
+            <element signature="e#21218#22287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/高亮/1/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/react/tutorial/定义组件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding />
         </state>
       </provider>

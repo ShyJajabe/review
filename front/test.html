@@ -1,53 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <style>
-        div input[type=button]{
-            background-color: blue;
+    <title></title>
+    <script type="text/javascript">
+        var worker = new Worker('c.js');
+        worker.onmessage = function (e) {
+            alert('和：' + e.data);
+        };
+        function calculate() {
+            var num = 10000000000;
+            worker.postMessage(num);
         }
-    </style>
+        calculate();
+        alert("test")
+    </script>
 </head>
 <body>
-<script>
-    function factorial(n) {
-        console.log('factorial',n);
-        return n == 1 ? 1 : n * factorial(n -1);
-    }
-
-    function noBlock(n, callback) {
-        setTimeout(function() {
-            var val = factorial(n);
-            if (callback && typeof callback == 'function') {
-                callback(val);
-            }
-        },0);
-    };
-
-    console.log("Top of the morning to you");
-
-    noBlock(3, function(n) {
-        console.log('first call ends with ' + n);
-        noBlock(n, function(m) {
-            console.log("final result is " + m);
-        });
-    });
-
-    var tst = 0;
-    for (i = 0; i < 10; i++) {
-        tst+=i;
-    }
-
-    console.log("value of tst is " + tst);
-
-    noBlock(4, function(n) {
-        console.log("end result is " + n);
-    });
-
-    console.log("not doing too much");
-</script>
-
 </body>
 </html>

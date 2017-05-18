@@ -24,14 +24,11 @@ class IndexBg extends Component {
             var winH = window.innerHeight;//获取页面高
             canvas.width = winW;//赋值Canvas的宽度
             canvas.height = winH;
-console.log(context);
-
-
+            console.log(context);
             context.fillStyle = '#fff';
             // context.fillRect(p.x, p.y, p.w, p.h);
             // context.strokeRect(p.x, p.y, p.w, p.h);
-
-        context.fillRect(20,20,150,100);
+            context.fillRect(20,20,150,100);
     }
     render() {
         return (
