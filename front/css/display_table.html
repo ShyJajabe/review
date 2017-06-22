@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <style>
+        .test1 div {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            width: 300px;
+            height: 300px;
+            border: 1px solid blue;
+        }
+
+        /*为什么两个都需要verticle-align*/
+        .test1 img {
+            vertical-align: middle;
+        }
+
+        /*********/
+
+        .test2 .wrapper {
+            display: table-row;
+        }
+
+        .test2 .box2 {
+            display: table-cell;
+            width: 100px;
+            border: 1px solid red;
+            border-left: none;
+            padding: 10px;
+        }
+        .test2 .box1 {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            width:300px;
+            border: 1px solid red;
+        }
+        .test2 .box1 img{
+            vertical-align: middle;
+        }
+        .test3   ul
+        {
+            list-style-type:none;
+            display:table;
+            width:100%;
+        }
+         .test3 li
+        {
+            display: table-cell;
+            height:60px;
+            line-height:60px;
+            text-align:center;
+            color:White;
+        }
+        .test3 ul li:nth-child(1){background-color:Red;}
+        .test3 ul li:nth-child(2){background-color:Orange;}
+        .test3 ul li:nth-child(3){background-color:Blue;}
+        .test3 ul li:nth-child(4){background-color:silver;}
+        .test3 ul li:nth-child(5){background-color:Purple;}
+
+    </style>
+</head>
+
+<body>
+<ol>
+    <li class="test1">
+        图片垂直居中于元素
+        <div>
+            <img src="img/timg.jpg" height="255" width="255"/>
+        </div>
+
+        <div>
+
+            <img src="img/timg.jpg" height="255" width="255"/></div>
+
+        <div>
+
+            <img src="img/timg.jpg" height="255" width="255"/></div>
+    </li>
+    <li class="test2">
+        等高布局 table-row
+        <div class="wrapper">
+            <div class="box1">
+
+                <img src="img/timg.jpg" height="255" width="255"/></div>
+            <div class="box2">sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbrsdfsfdsdfsdfsdfsdbr
+                              sdfsfdsdfsdfsdfsdbr
+
+
+            </div>
+        </div>
+
+    </li>
+    <li class="test3">
+        自动平均划分元素
+        <ul>    <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li></ul>
+    </li>
+</ol>
+</body>
+</html>

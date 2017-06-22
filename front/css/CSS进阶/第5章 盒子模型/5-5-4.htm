@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        #content,#sidebar
+        {
+            float:left;
+            color:white;
+        }
+        #content 
+        {
+            width:100%; 
+            margin-right:-200px;
+            background-color:Red;
+        }
+        #sidebar 
+        {
+            width:200px; 
+            background-color:Purple;
+        }
+        /* 防止浏览器可视区域宽度不足时发生文本重叠*/
+        #content p {margin-right:210px;}
+        /* 它是 200px + 10px, 10px是他们的间距*/
+    </style>
+</head>
+<body>
+    <div id="content"> <p>这是主体部分，自适应宽度</p> </div> 
+    <div id="sidebar"> <p>这是侧边栏部分，固定宽度 </p> </div>	
+</body>
+</html>

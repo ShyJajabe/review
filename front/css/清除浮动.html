@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /*zoom用于ie6 7*/
+        .clearfix{*zoom:1;}
+        .clearfix::after
+        {
+            clear:both;
+            content:"";
+            display:block;
+            height:0;
+            visibility:hidden;
+        }
+        #wrapper
+        {
+            width:200px;
+            border:1px solid black;
+        }
+        #first,#second
+        {
+            width:80px;
+            height:40px;
+            border:1px solid red;
+        }
+        #first{float:left;}
+        #second{float:right;}
+    </style>
+</head>
+<body>
+<div id="wrapper" class="clearfix">
+    <div id="first"></div>
+    <div id="second"></div>
+</div>
+</body>
+</html>

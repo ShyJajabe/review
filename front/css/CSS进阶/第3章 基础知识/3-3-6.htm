@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        #outer strong
+        {
+            /*权重=100+1=101*/
+            color:Red;
+        }
+        #outer .inner strong
+        {
+            /*权重=100+10+1=111*/
+            color:Green;
+        }
+        .inner strong
+        {
+            /*权重=10+1=11*/
+            color:Blue;
+        }
+        .inner span strong
+        {
+            /*权重=10+1+1=12*/
+            color:Purple;
+        }
+        strong
+        {
+            color:Black !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <p class="inner">
+            <span><strong>绿叶学习网</strong></span>
+        </p>
+    </div>
+</body>
+</html>

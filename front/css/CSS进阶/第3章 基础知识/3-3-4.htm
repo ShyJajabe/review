@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        #outer p
+        {
+            /*权值=100+1=101*/
+            color:Red;
+        }
+        #outer .inner
+        {
+            /*权值=100+10=110*/
+            color:Green;
+        }
+        #outer p strong
+        {
+            /*权值=100+1+1=102*/
+            color:Blue;
+        }
+        #outer p span strong
+        {
+            /*权值=100+1+1+1=103*/
+            color:Purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <p class="inner">
+            <span><strong>绿叶学习网</strong></span>
+        </p>
+    </div>
+</body>
+</html>

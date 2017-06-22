@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        #wrapper 
+        {
+            width:200px;
+            border: 1px solid black;
+        }
+        #first,#second
+        {
+            width:80px;
+            height:40px;
+            border:1px solid red;
+        }
+        #first{float:left;}
+        #second{float:right;}
+        .clear
+        {
+            clear:both;     /*关键代码，清除浮动*/
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="wrapper">
+        <div id="first"></div>
+        <div id="second"></div>
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
+</html>
+

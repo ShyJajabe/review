@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form
+        {
+            width:320px;
+            font-family:Arial;
+            font-size:14px;
+            font-weight:bold;
+        }
+        /*清除每一个p中的浮动*/
+        p{overflow:hidden;}
+        label
+        {
+            float:left;
+            width:60px;
+            height:40px;
+            line-height:40px;
+            text-align:right;
+            margin-right:10px;
+        }
+        input:not(#submit)
+        {
+            float:left;
+            height:16px;
+            padding:10px;
+            border:1px solid silver;
+        }
+        #tel,#pwd
+        {
+            width:228px;
+        }
+        #verifyCode
+        {
+            width:118px;
+            margin-right:10px;
+        }
+        #submit
+        {
+            width:100px;
+            height:40px;
+            border:1px solid gray;
+            padding:0;
+            background-color:#F1F1F1;
+        }
+    </style>
+</head>
+<body>
+（1）每一行表单分为左栏加若干右栏。所有行的左栏长度相等，所有行的右栏所有盒子
+长度之和相等。左栏一般是一个 label，右栏是若干个文本框。 <br>
+（2）所有左栏盒子和右栏盒子都设置为左浮动。 <br>
+（3）左栏 text-align 属性定义为 right，使得文字右对齐。 <br>
+（4）最重要一点，每一行中左栏长度和右栏所有盒子的总长度之和等于行宽。这里的盒
+子是包括 width、padding、border 和 margin 的。 <br>
+
+
+
+<h4>这里不对，chrome浏览器不是整数</h4>
+<form action="index.html">
+    <p>
+        <label for="tel">手机号</label>
+        <input id="tel" type="text"/>
+    </p>
+    <p>
+        <label for="pwd">密码</label>
+        <input id="pwd" type="password"/>
+    </p>
+    <p>
+        <label for="verifyCode">验证码</label>
+        <input id="verifyCode" type="text"/>
+        <input id="submit" type="submit"/>
+    </p>
+</form>
+</body>
+</html>
