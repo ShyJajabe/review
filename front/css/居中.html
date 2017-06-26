@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .test2 p
+        {
+            display:table-cell;
+            vertical-align:middle;
+            width:400px;
+            height:120px;
+            border:1px dashed gray;
+        }
+        /*下面这个的必要性并不明白*/
+        .test2 span{display:inline-block;}
+    </style>
+</head>
+<body>
+<ol><li>单行文字 :line-height</li>
+<li class="test2">多行文字<p>
+		<span>《web前端开发精品课•HTML和CSS基础教程》<br />
+		《web前端开发精品课•HTML和CSS进阶教程》<br />
+		《web前端开发精品课•CSS3教程》</span>
+</p></li>
+</ol>
+</body>
+</html>
