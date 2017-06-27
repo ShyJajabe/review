@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <input type="text" v-on:input="changeTitle">
+    <p>{{title}}</p>
+    <p>{{sayHello()}}</p>
+    <p>{{sayHello2()}}</p>
+    <button v-on:click="sayHello3">sayHello3</button>
+    <!--v-bind bind sth to my data-->
+    <p><a v-bind:href="link">baidu</a></p>
+    <p v-once>{{title}} v-once只会渲染一次</p>
+    <hr>
+    <p v-html="finishedLink"></p>
+    <button v-on:click="increase(2,$event)">{{counter}}</button>
+    <button v-on:click="counter++">{{counter}}</button>
+    <p>{{counter*2}}</p>
+    <p>{{counter*2>10?'greater than 10':'smaller than 10'}}</p>
+    <p v-on:mousemove="updateCoordinates">Coordinates:{{x}}/{{y}} <br>
+    <span v-on:mousemove="dummy">dead spot</span><br>
+        <span v-on:mousemove.stop="">dead spot</span></p>
+
+    <!--https://cn.vuejs.org/v2/guide/events.html#监听事件-->
+    <input type="text" v-on:keyup="alertMe">
+    <input type="text" v-on:keyup.enter="alertMe"><input type="text" v-on:keyup.enter.space="alertMe">
+
+    <!--双向绑定-->
+    <p >
+        <input type="text" v-model="name">
+        <span>{{name}}</span>
+    </p>
+
+    <!--计算属性-->
+    <div>
+    <button v-on:click="secondCounter++">click</button>
+        <p>{{secondCounter}}</p>
+        <p>{{output}}</p>
+    </div>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            title: 'Hello Vue.js!',
+            link: 'http://www.baidu.com', //必须有http 反则是相对路径
+            finishedLink: '<a href="http://www.baidu.com">baidu</a>',
+            counter: 0,
+            x: 0,
+            y: 0,
+            name:'Max',
+            secondCounter:0,
+        },
+        computed:{
+            output:function(){
+                return this.secondCounter>5?'>5':'<5';
+            }
+        },
+        methods: {
+            changeTitle: function (event) {
+                this.title = event.target.value;
+            },
+            sayHello: function () {
+                return 'hello!';
+            },
+            sayHello2: function () {
+                return this.title;
+            },
+            sayHello3: function () {
+                this.title = 'sayHello3';  //所有usages of title属性会变
+                return this.title;
+            },
+            increase: function (step,event) {
+                this.counter+=step;
+            },
+            updateCoordinates: function (event) {
+                this.x = event.clientX;
+                this.y = event.clientY;
+            },
+            dummy:function(event){
+                event.stopPropagation()
+            },
+            alertMe:function(event){
+                alert('alert')
+            }
+        }
+
+    })
+</script>
+</body>
+</html>
