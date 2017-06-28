@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: grey;
+        }
+        .red{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div class="demo"
+    @click="attachRed=!attachRed;"
+    :class="{red:attachRed}"></div>
+</div>
+</body>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            title: 'Hello Vue.js!',
+            attachRed:false
+
+        },
+        computed:{
+
+        },
+        methods: {
+
+        }
+
+    })
+</script>
+</html>
