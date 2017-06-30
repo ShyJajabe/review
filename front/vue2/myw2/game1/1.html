@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+
+    <link rel="stylesheet" href="foundation.min.css">
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+<div id="app">
+    <section class="healthCo">
+        <div class="health barCenter"><h1>YOU</h1>
+            <div class="healthOuter">
+                <div class="healthInner" :style="playerWidth">{{playerHealth}}</div></div></div>
+        <div class="health barCenter"><h1>MONSTER</h1>
+            <div class="healthOuter">
+                <div class="healthInner" :style="monsterWidth">{{monsterHealth}}</div></div></div>
+    </section>
+    <section v-if="showButton">
+        <button @click="newGame">START NEW GAME</button>
+    </section>
+    <section v-else="showButton">
+        <button class="attack" @click="playerAttack">ATTACK</button>
+        <button class="specialAttack">SPECIAL ATTACK</button>
+        <button class="heal" @click="playerHeal">HEAL</button>
+        <button class="giveUp" @click="giveUp">GIVE UP</button>
+    </section>
+    <section>
+        <div v-html="attackData">
+
+        </div>
+    </section>
+
+</div>
+<script src="1.js"></script>
+</body>
+
+</html>

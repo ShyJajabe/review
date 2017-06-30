@@ -1,0 +1,47 @@
+*{padding:0;margin:0;}
+section{
+    text-align: center;
+}
+
+button{
+    font-size: 20px;
+    background-color: #eee;
+    padding: 12px;
+    box-shadow: 0 1px 1px black;
+    margin: 10px;
+}
+.healthCo{
+    font-size: 0;
+}
+.healthCo h1{
+    font-size: 20px;
+    color: black;
+}
+.attack{
+    background-color: red;
+}
+.specialAttack{
+    background-color: pink;
+}
+.heal{
+    background-color: lightgreen;
+}
+.giveUp{
+    background-color: dimgrey;
+}
+.healthOuter{
+    width: 300px;
+    background-color: lightgrey;
+    height: 40px;
+}
+.healthInner{
+    width: 200px;
+    background-color: green;
+    height: 40px;
+}
+.health{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 14px;
+    color: white;
+}
