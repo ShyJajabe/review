@@ -61,11 +61,6 @@
         },
         computed:{
             output:function(){
-                setTimeout(function(){
-                    console.log('this2',this);
-                    vm.counter=1;
-                },2000)
-
                 return this.secondCounter>5?'>5':'<5';
             }
         },
