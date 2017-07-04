@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="box1">
+    <!--{{m1()}}-->
+    <!--这里m1()是未定义，因为当时vm2还没加载进来-->
+    <button @click="change"></button>
+
+</div>
+<div id="box2">
+    {{m1()}}
+    <h1>{{name}}</h1>
+</div>
+<div id="box3">
+
+</div>
+</body>
+<script>
+    var vm1 = new Vue({
+        el: '#box1',
+        data: {
+            name: 'vm1'
+        },
+        computed: {},
+        methods: {
+            m1: function () {
+                return vm2.name
+            },
+            change: function () {
+                vm2.name = 'asdasd'
+            }
+        }
+    });
+
+    var vm2 = new Vue({
+        el: '#box2',
+        data: {
+            name: 'vm2'
+        },
+        computed: {}
+        ,
+        methods: {
+            m1: function () {
+                return vm1.name
+            }
+        }
+    });
+    data={
+        name:'vm3'
+    };
+
+    var vm3 = new Vue({
+        el: '#box3',
+        data: data,
+        computed: {}
+        ,
+        methods: {
+            m1: function () {
+                return vm1.name
+            }
+        }
+    });
+    console.log('vm1',vm3.$data.name)
+    console.log('vm2',vm3.$data)
+    console.log('vm3',data)
+    console.log('vm4',vm3.$data===data)
+    console.log('vm5',vm3.name)
+</script>
+</html>
